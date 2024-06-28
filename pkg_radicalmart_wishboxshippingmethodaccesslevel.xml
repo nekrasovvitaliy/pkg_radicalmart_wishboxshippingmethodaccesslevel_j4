@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="4.4.5" method="upgrade">
+    <name>pkg_radicalmart_wishboxshippingmethodaccesslevel</name>
+    <author>Nekrasov Vitaliy</author>
+    <authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
+    <creationDate>February 2024</creationDate>
+    <packagename>radicalmart_wishboxshippingmethodaccesslevel</packagename>
+    <version>1.0.0</version>
+    <packager>Nekrasov Vitaliy</packager>
+    <description>PKG_RADICALMART_WISHBOXSHIPPINGMETHODACCESSLEVEL_XML_DESCRIPTION</description>
+    <scriptfile>script.php</scriptfile>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/pkg_radicalmart_wishboxshippingmethodaccesslevel.sys.ini</language>
+        <language tag="ru-RU">ru-RU/pkg_radicalmart_wishboxshippingmethodaccesslevel.sys.ini</language>
+    </languages>
+    <files>
+        <file
+                type="plugin"
+                id="wishboxshippingmethodaccesslevel"
+                group="radicalmart"
+        >plg_radicalmart_wishboxshippingmethodaccesslevel.zip</file>
+    </files>
+</extension>

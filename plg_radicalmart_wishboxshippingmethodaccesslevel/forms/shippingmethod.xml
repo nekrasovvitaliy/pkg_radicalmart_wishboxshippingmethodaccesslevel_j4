@@ -1,0 +1,11 @@
+<form addfieldprefix="Joomla\Component\RadicalMart\Administrator\Field">
+    <fieldset name="payment_methods" label="COM_RADICALMART_PAYMENT_METHODS">
+        <fields name="params">
+            <field
+                    name="wishboxshippingmethodacceslevel"
+                    type="accesslevel"
+                    label="PLG_RADICALMART_WISHBOXSHIPPINGMETHODACCESSLEVEL_FIELD_ACCESS_LEVEL_LABEL"
+            />
+        </fields>
+    </fieldset>
+</form>
