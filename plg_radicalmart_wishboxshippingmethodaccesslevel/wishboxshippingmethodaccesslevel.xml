@@ -8,9 +8,9 @@
 	<description>PLG_RADICALMART_WISHBOXSHIPPINGMETHODACCESSLEVEL_XML_DESCRIPTION</description>
 	<namespace path="src">Joomla\Plugin\Radicalmart\Wishboxshippingmethodaccesslevel</namespace>
 	<files>
+		<folder>forms</folder>
 		<folder plugin="wishboxshippingmethodaccesslevel">services</folder>
 		<folder>src</folder>
-		<folder>language</folder>
 	</files>
 	<languages>
 		<language tag="en-GB">language/en-GB/plg_radicalmart_wishboxshippingmethodaccesslevel.ini</language>

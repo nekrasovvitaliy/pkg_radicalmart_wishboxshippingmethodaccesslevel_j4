@@ -58,7 +58,7 @@ return new class implements ServiceProviderInterface
 				 *
 				 * @since  1.0.0
 				 */
-				protected string $minimumJoomla = '4.4.5';
+				protected string $minimumJoomla = '4.4.3';
 
 				/**
 				 * Minimum Joomla version required to install the extension.
@@ -67,7 +67,7 @@ return new class implements ServiceProviderInterface
 				 *
 				 * @since  1.0.0
 				 */
-				protected string $minimumRadicalMart = '2.1.0';
+				protected string $minimumRadicalMart = '2.0.0';
 
 				/**
 				 * Minimum PHP version required to install the extension.
