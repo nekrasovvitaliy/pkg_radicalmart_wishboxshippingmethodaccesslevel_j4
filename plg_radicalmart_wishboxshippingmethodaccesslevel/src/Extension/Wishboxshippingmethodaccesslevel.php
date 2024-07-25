@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   (c) 2013-2024 Nekrasov Vitaliy пше<nekrasov_vitaliy@list.ru>
+ * @copyright   (c) 2013-2024 Nekrasov Vitaliy <nekrasov_vitaliy@list.ru>
  * @license     GNU General Public License version 2 or later
  */
 namespace Joomla\Plugin\Radicalmart\Wishboxshippingmethodaccesslevel\Extension;
@@ -105,16 +105,20 @@ final class Wishboxshippingmethodaccesslevel extends CMSPlugin implements Subscr
 	): void
 	{
 		$app = Factory::getApplication();
-		$user = $app->getIdentity();
-		$userAccessLevelIds = $user->getAuthorisedViewLevels();
 
-		foreach ($methods as $k => $method)
+		if ($app->isClient('site') || $app->isClient('site'))
 		{
-			$methodAccessLevelId = $method->params->get('wishboxshippingmethodacceslevel', 0);
+			$user               = $app->getIdentity();
+			$userAccessLevelIds = $user->getAuthorisedViewLevels();
 
-			if (!in_array($methodAccessLevelId, $userAccessLevelIds))
+			foreach ($methods as $k => $method)
 			{
-				unset($methods[$k]);
+				$methodAccessLevelId = $method->params->get('wishboxshippingmethodacceslevel', 0);
+
+				if (!in_array($methodAccessLevelId, $userAccessLevelIds))
+				{
+					unset($methods[$k]);
+				}
 			}
 		}
 	}
