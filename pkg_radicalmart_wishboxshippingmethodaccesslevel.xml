@@ -5,7 +5,7 @@
     <authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
     <creationDate>February 2024</creationDate>
     <packagename>radicalmart_wishboxshippingmethodaccesslevel</packagename>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packager>Nekrasov Vitaliy</packager>
     <description>PKG_RADICALMART_WISHBOXSHIPPINGMETHODACCESSLEVEL_XML_DESCRIPTION</description>
     <scriptfile>script.php</scriptfile>
